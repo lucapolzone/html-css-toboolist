@@ -14,7 +14,7 @@
 <!-- Google fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 <!-- css -->
 <link rel="stylesheet" href="css/style.css">
 </head>
@@ -26,19 +26,19 @@
   </header>
   <!-- Short menu -->
   <main>
-    <div class="card add-buttons">
-      <input type="button" value="Add task">
-      <input type="button" value="Add section">
+    <div class="card" id="add-buttons">
+      <input type="button" class="button task" value="Add task">
+      <input type="button" class="button section" value="Add section">
     </div>
-    
-    <div class="card tasks">
-      <section class="new">
+  <!-- Attività -->  
+    <div class="card" id="activities">
+      <section class="card-section new">
         <h2>New Task</h2>
         <ul>
           <li>Lorem, ipsum dolor.</li>
         </ul>
       </section>
-      <section class="today">
+      <section class="card-section today">
         <h2>Today</h2>
         <ul>
           <li>Lorem, ipsum dolor.</li>
@@ -47,7 +47,7 @@
           <li>Lorem ipsum dolor sit amet.</li>
         </ul>
       </section>
-      <section class="upcoming">
+      <section class="card-section upcoming">
         <h2>Upcoming</h2>
         <ul>
           <li>Lorem ipsum dolor sit amet.</li>
