@@ -5,7 +5,6 @@
   box-sizing: border-box;
 }
 
-
 body {
   background-color: rgb(68, 68, 95);
   /* background-color: #f6f8f9; */
@@ -13,8 +12,8 @@ body {
 }
 
 
+/* Sezione Header */
 
-/* Header */
 header {
   height: 70px;
   line-height: 70px;
@@ -33,9 +32,19 @@ header {
   font-size: 2.3rem;
 }
 
+
+/* Sezione Main */
+
 .card {
   width: 80%;
-  margin: 2rem auto;
   padding: 1rem 3rem;
   background-color: #ffffff;
+}
+
+.add-buttons {
+  margin: 2rem auto 0.1rem auto;
+} 
+
+.tasks {
+  margin: auto;
 }
