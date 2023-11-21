@@ -59,12 +59,12 @@ header {
   border-width: 1px;
   border-style: solid;
   font-weight: 500;
+  color: #fff;
 }
 
 .task {
   background-color: #47adf0;
-  border-color: #47adf0;
-  color: #fff;
+  border-color: #47adf0; 
 }
 
 .section {
@@ -77,11 +77,78 @@ header {
 /* Sezione Attività */
 
 
-/* fixed padding lista */
+/* Proprietà lista */
 ul {
-  padding-left: 1em;
+  /* padding-left: 0.4em; */
+}
+
+li {
+  margin: 1em 0;
+  line-height: normal;
+  list-style-type: none;
 }
 
 .card-section {
   margin-bottom: 2rem;
+}
+
+
+
+.list-circle {
+  display: inline-block;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  border: 2px solid;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 0.5em;
+}
+
+.check-green {
+  border-color: #65c0a9;
+  color: #65c0a9;
+}
+
+.uncheck-red {
+  border-color: #ff0000;
+  color: #ff0000;
+}
+
+
+
+/* Formattazione activities button */
+
+.activities {
+  border-radius: 8px;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  border: none;
+  vertical-align: middle;
+}
+
+.blue {
+  background-color: #47adf0;
+}
+
+.purple {
+  background-color: #9c72e4;
+}
+
+.orange {
+  background-color: #f19d32;
+}
+
+.green {
+  background-color: #65c0a9;
+}
+
+.yellow {
+  background-color: #afc824;
+}
+
+.pink {
+  background-color: #d864a1;
 }
