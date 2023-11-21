@@ -19,53 +19,61 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- Intestazione -->
+  <!-- HEADER -->
   <header>
     <img src="img/logo.png" class="logo-intestazione" alt="logo intestazione">
     <h1 class="titolo-intestazione">Toboolist</h1>
   </header>
-  <!-- Short menu -->
+
+  <!-- Short menu, add new task or new section -->
   <main>
-    <div class="card" id="add-buttons">
-      <input type="button" class="button task" value="Add task">
-      <input type="button" class="button section" value="Add section">
+    <div class="card" id="add">
+      <input type="button" class="button add-task" value="Add task">
+      <input type="button" class="button add-section" value="Add section">
     </div>
-  <!-- Attività -->  
-    <div class="card" id="activities">
+  <!-- Tasks -->  
+    <div class="card" id="tasks">
+      <!-- New Task -->
       <section class="card-section">
-        <!-- New Task -->
         <h2><span class="down-arrow">&#9662;</span>New Task</h2>
         <ul>
           <li>
             <span class="list-circle check-green">&check;</span>
-            Lorem, ipsum dolor<span class="empty-space">&nbsp;</span><input type="button" class="activities button blue" value="Editorial">
+            Lorem, ipsum dolor
+            <div class="label blue">Editorial</div>
           </li>
         </ul>
       </section>
+
+      <!-- Today -->
       <section class="card-section">
-        <!-- Today -->
         <h2><span class="down-arrow">&#9662;</span>Today</h2>
         <ul>
           <li>
             <span class="list-circle check-green">&check;</span>
-            Lorem, ipsum dolor<span class="empty-space">&nbsp;</span><input type="button" class="activities button blue" value="Editorial">
+            Lorem, ipsum dolor
+            <div class="label blue">Editorial</div>
           </li>
           <li>
             <span class="list-circle check-green">&check;</span>
-            Lorem, ipsum dolor<span class="empty-space">&nbsp;</span><input type="button" class="activities button purple" value="Q1 Goals">
+            Lorem, ipsum dolor
+            <div class="label purple">Q1 Goals</div>
           </li>
           <li>
             <span class="list-circle cross-red">&cross;</span>
-            Lorem, ipsum dolor<span class="empty-space">&nbsp;</span><input type="button" class="activities button green" value="Recruiting">
+            Lorem, ipsum dolor
+            <div class="label green">Recruiting</div>
           </li>
           <li>
             <span class="list-circle check-green">&check;</span>
-            Lorem ipsum dolor sit amet<span class="empty-space">&nbsp;</span><input type="button" class="activities button orange" value="Mobile">
+            Lorem ipsum dolor sit amet
+            <div class="label orange">Mobile</div>
           </li>
         </ul>
       </section>
+
+      <!-- Upcoming -->
       <section class="card-section">
-        <!-- Upcoming -->
         <h2><span class="down-arrow">&#9662;</span>Upcoming</h2>
         <ul>
           <li>
@@ -74,15 +82,18 @@
           </li>
           <li>
             <span class="list-circle check-green">&check;</span>
-            Lorem ipsum dolor<span class="empty-space">&nbsp;</span><input type="button" class="activities button pink" value="Website">
+            Lorem ipsum dolor
+            <div class="label pink">Website</div>
           </li>
           <li>
             <span class="list-circle check-green">&check;</span>
-            Lorem ipsum dolor sit amet<span class="empty-space">&nbsp;</span><input type="button" class="activities button yellow" value="Sales">
+            Lorem ipsum dolor sit amet
+            <div class="label yellow">Sales</div>
           </li>
           <li>
             <span class="list-circle check-green">&check;</span>
-            Lorem ipsum dolor sit amet<span class="empty-space">&nbsp;</span><input type="button" class="activities button blue" value="Editorial">
+            Lorem ipsum dolor sit amet
+            <div class="label blue">Editorial</div>
           </li>
         </ul>
       </section>

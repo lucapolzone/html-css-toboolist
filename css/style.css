@@ -11,7 +11,7 @@ body {
 }
 
 
-/* Sezione Header */
+/* HEADER */
 
 header {
   height: 70px;
@@ -32,7 +32,7 @@ header {
 }
 
 
-/* Allineamenti elementi nel Main */
+/* MAIN elements */
 
 .card {
   width: 70%;
@@ -40,24 +40,24 @@ header {
   background-color: #ffffff;
 }
 
-#add-buttons {
+#add {
   margin: 2rem auto 2px auto;
   padding-bottom: 0.7em;
   border-radius: 10px 10px 0 0;
 } 
 
-#activities {
+#tasks {
   margin: auto;
   border-radius: 0 0 10px 10px;
   margin-bottom: 1em;
 }
 
 
-/* Sezione Short menu */
+/* Short menu section */
 
 .button {
   margin-right: 0.3em;
-  padding: 0.4em 0.8em 0.4em 0.8em;
+  padding: 0.4em 0.8em;
   border-radius: 4px;
   border-width: 1px;
   border-style: solid;
@@ -65,19 +65,19 @@ header {
   color: #fff;
 }
 
-.task {
+.add-task {
   background-color: #47adf0;
   border-color: #47adf0; 
 }
 
-.section {
+.add-section {
   background-color: #ffffff;
   border-color: #999;
   color: #999;
 }
 
 
-/* Sezione Attività */
+/* Tasks section */
 
 li {
   margin: 1em 0;
@@ -118,16 +118,18 @@ h2 {
 }
 
 
+/* Labels activities */
 
-/* Formattazione bottoni attività */
-
-.activities {
+.label {
+  display: inline-block;
   border-radius: 8px;
-  padding-top: 0.2em;
-  padding-bottom: 0.2em;
+  padding: 0.2em 0.8em;
   border: none;
   vertical-align: middle;
+  transform: scale(0.8);
+  color: #fff;
 }
+
 
 .blue {
   background-color: #47adf0;
