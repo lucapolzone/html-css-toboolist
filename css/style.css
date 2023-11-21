@@ -6,7 +6,6 @@
 }
 
 body {
-  /* background-color: rgb(68, 68, 95); */
   background-color: #cfd1d1;
   font-family: 'Roboto', sans-serif;
 }
@@ -36,7 +35,7 @@ header {
 /* Allineamenti elementi nel Main */
 
 .card {
-  width: 80%;
+  width: 70%;
   padding: 1rem 3rem;
   background-color: #ffffff;
 }
@@ -44,10 +43,13 @@ header {
 #add-buttons {
   margin: 2rem auto 2px auto;
   padding-bottom: 0.7em;
+  border-radius: 10px 10px 0 0;
 } 
 
 #activities {
   margin: auto;
+  border-radius: 0 0 10px 10px;
+  margin-bottom: 1em;
 }
 
 
@@ -76,12 +78,6 @@ header {
 
 
 /* Sezione Attività */
-
-
-/* Proprietà lista */
-ul {
-  /* padding-left: 0.4em; */
-}
 
 li {
   margin: 1em 0;
@@ -116,14 +112,14 @@ h2 {
   color: #65c0a9;
 }
 
-.uncheck-red {
+.cross-red {
   border-color: #ff0000;
   color: #ff0000;
 }
 
 
 
-/* Formattazione activities button */
+/* Formattazione bottoni attività */
 
 .activities {
   border-radius: 8px;
