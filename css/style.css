@@ -38,16 +38,17 @@ header {
   width: 70%;
   padding: 1rem 3rem;
   background-color: #ffffff;
+  margin: auto;
 }
 
 #add {
-  margin: 2rem auto 2px auto;
+  margin-top: 2rem;
+  margin-bottom: 2px;
   padding-bottom: 0.7em;
   border-radius: 10px 10px 0 0;
 } 
 
 #tasks {
-  margin: auto;
   border-radius: 0 0 10px 10px;
   margin-bottom: 1em;
 }
